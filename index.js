@@ -39,7 +39,7 @@ app.post("/", async (req, res) => {
   }
 });
 
-async function getTokenID() {
+export async function getTokenID() {
   const bodyData = {
     client_id: clientID,
     client_secret: clientSecret,
